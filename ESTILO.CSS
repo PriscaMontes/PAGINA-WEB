@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(203, 238, 238);
+    color:rgba(12, 6, 6, 0.804); /* #FFF; */
+}
+#contenedor{
+    width:960px;
+    margin: auto;
+    margin-top :20px;
+    margin-bottom : 20px;
+}
+header{
+    background-image:url('fondo/thfondo\ axul.jpg');
+    height: 165px;
+}
+    header h1{
+        font-size: 60px;
+        font-family: cooper;
+        text-align:center;
+        line-height: 160px;
+        color: gainsboro;
+    }
+    nav{
+        background-image: url('fondo/FONDOCELESTE.jpg');
+        height:90px;
+        font-size: 19px;
+        text-align:center;
+        text-align: left;
+              
+        
+    }
+        nav h2{
+            font-size:22px;
+            text-align: left;
+            line-height:20px;
+           
+        }
+        nav h3{
+            font-size: 20px;
+            text-align: right;
+            line-height: 20px;
+        }
+        #contenido{
+            width: 700px;
+            height:960px;
+            float:left;
+            background: rgb(34, 232, 153);
+            margin-left: 10px;
+            margin-top:10px;
+            p{
+                text-indent: 30px;
+            }
+            
+        }
+        #contenido h2{
+            font-size: 17px;
+            text-align: center;
+            line-height: 40px;/*centra con alto*/;
+            margin: 8px;
+        }
+        aside{
+            width:250px;
+            height:960px;
+            float:right;
+            background: rgb(26, 231, 170);
+            margin-top: 10px;
+            background-image: url('fondo/lateral.jpg');
+            
+        }
+        aside h2{
+            font-size:30px;
+            text-align:center;
+            line-height:500px;
+            
+        }
+        footer{
+            background: rgb(43, 196, 117); 
+            clear: both; /*permite romper el flotante*/
+            margin-top: 40px;
+        }
+        footer h2{
+            font-size: 30px;
+            text-align:center;
+            padding-top:20px;
+            font-style:italic;
+            font-family: cooper;
+            color: gainsboro;
+            background-image: url('fondo/thfondo\ axul.jpg');
+        }
